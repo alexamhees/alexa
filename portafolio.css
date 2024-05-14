@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.header {
+    height: 2cm;
+    background-color: white;
+    font-family: "Lora", serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.exampleone {
+    background-color: #F6F6F4;
+    color: #F6F6F4;
+}
+
+.columnas1 {
+    display: flex;
+    column-gap: 150px;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.acercademí {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lora", serif;
+    font-size: 40px;
+    color: #619DD0;
+    width: 200px;
+    text-align: center;
+}
+
+.portafolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lora", serif;
+    font-size: 40px;
+    color: #619DD0;
+    width: 200px;
+    text-align: center;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lora", serif;
+    font-size: 40px;
+    color: #619DD0;
+    width: 200px;
+    text-align: center;
+}
+
+.examplefour {
+    width: 255px;
+    height: 264px;
+}
+
+.exampletwo {
+    background-color: #F2A633;
+    color:black;
+    padding: 20px;
+    font-family: "Lora", serif;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.títulos {
+    font-family: "Lora", serif;
+    color: #F2A633;
+    font-size: 40px;
+}
+
+.títuloscol2 {
+    font-family: "Lora", serif;
+    color: #619DD0;
+    font-size: 40px;
+}
+
+.imagen-y-texto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.imagen-y-texto img {
+    margin-right: 20px;
+}
+
+.contenido {
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+footer {
+    font-family: "Lora", serif;
+    background-color: #619DD0;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
